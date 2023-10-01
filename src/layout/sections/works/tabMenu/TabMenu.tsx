@@ -8,7 +8,7 @@ export const Menu = (props: { menuItems: Array<string> }) => {
             <ul>
                 {props.menuItems.map((item, index)=>{
                     return( <li key={index}>
-                        <a href="">{item}</a>
+                        <a href="src/layout/sections/works/menu">{item}</a>
                     </li>
                     )
                 })}
